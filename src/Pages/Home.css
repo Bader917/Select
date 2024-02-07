@@ -1,0 +1,262 @@
+.HomePage,
+.log_student,
+.log_admin,
+.schedules {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: url(../image/background25.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  align-items: center;
+  width: 70%;
+}
+.HomePage .text,
+.log_student .text,
+.log_admin .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  /* width: 60%; */
+}
+
+.HomePage .text p,
+.log_student .text p,
+.log_admin .text p {
+  color: black;
+  margin: 0 0 25px;
+  font-size: 20px;
+}
+
+.HomePage .text .buttons,
+.log_admin .text .buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.log_student .text form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lecschedules .all form button,
+.log_student .text form button {
+  background-color: #1f4385;
+  margin-left: 10px;
+}
+
+.HomePage .text .btn {
+  background: #1f4385;
+  border-radius: 50px;
+  color: white;
+}
+
+.HomePage .image,
+.log_student .image,
+.log_admin .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 30%;
+  overflow: hidden;
+}
+
+.HomePage .image img,
+.log_student .image img,
+.log_admin .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.log_admin form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.log_admin form input {
+  background-color: #98bfff96;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.log_admin form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.log_admin form label svg {
+  color: black;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.log_admin .text .btn {
+  height: 50px;
+}
+
+.lecschedules .all,
+.lecschedules .all form,
+.schedules .all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedules .all .buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedules .all .buttons a {
+  background-color: #1f4385;
+  color: white;
+  width: 400px;
+  height: 70px;
+  border-radius: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* Start Style Main Schedules By Bader */
+.main-schedules {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-schedules .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-schedules .main-content {
+  width: 50%;
+  text-align: center;
+}
+
+.main-schedules .main-content p {
+  color: #363636;
+}
+
+.main-schedules .sec-content {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-schedules .sec-content button {
+  border: none;
+  background-color: #4461F2;
+  padding: 4px 16px;
+  border-radius: 24px;
+  color: #FFF;
+
+}
+
+.main-schedules .sec-content img{
+  width: 160px;
+}
+
+.main-schedules .select-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.main-schedules .select-container .select-option-one {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.main-schedules .select-container .select-option-one .select-box {
+  padding: 3px 20px;
+  background-color: #1f1f1f;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFF;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  position: relative;
+}
+
+.main-schedules .select-container .select-option-one .select-box .select-icon {
+  width: 34px;
+  height: 34px;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main-schedules .select-container .select-option-one .select-box svg {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main-schedules .select-container .select-option-one .select-box svg path {
+  color: #0f0f0f;
+}
+
+.main-schedules .select-container .select-option-one .select-options {
+  width: 270px;
+  padding: 12px;
+  background-color: #4461F2;
+  position: absolute;
+  top: 42px;
+  right: 50%;
+  z-index: 1;
+  display: none;
+}
+
+.main-schedules .select-container .select-option-one .select-options div {
+  color: #FFF;
+  cursor: pointer;
+  transition: all .3s;
+  margin: 3px 0;
+}
+
+.main-schedules .select-container .select-option-one .select-options div:hover {
+  background-color: #0f0f0f;
+}
+
+.main-schedules .select-container .select-option-one .select-options.show {
+  display: block;
+}
+/* End Style Main Schedules By Bader */

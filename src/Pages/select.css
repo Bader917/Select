@@ -1,0 +1,121 @@
+/* Start Style Main Schedules By Bader */
+.main-schedules {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-schedules .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-schedules .main-content {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .main-schedules .main-content p {
+    color: #363636;
+  }
+  
+  .main-schedules .sec-content {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .main-schedules .sec-content button {
+    border: none;
+    background-color: #4461F2;
+    padding: 4px 16px;
+    border-radius: 24px;
+    color: #FFF;
+  
+  }
+  
+  .main-schedules .sec-content img{
+    width: 160px;
+  }
+  
+  .main-schedules .select-container {
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .main-schedules .select-container .select-option-one {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-box {
+    padding: 3px 20px;
+    background-color: #1f1f1f;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-box .select-icon {
+    width: 34px;
+    height: 34px;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .main-schedules .select-container .select-option-one .select-box svg {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-box svg path {
+    color: #0f0f0f;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-options {
+    width: 270px;
+    padding: 12px;
+    background-color: #4461F2;
+    position: absolute;
+    top: 42px;
+    right: 50%;
+    z-index: 1;
+    display: none;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-options div {
+    color: #FFF;
+    cursor: pointer;
+    transition: all .3s;
+    margin: 3px 0;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-options div:hover {
+    background-color: #0f0f0f;
+  }
+  
+  .main-schedules .select-container .select-option-one .select-options.show {
+    display: block;
+  }
+  /* End Style Main Schedules By Bader */
